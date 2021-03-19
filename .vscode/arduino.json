@@ -1,7 +1,7 @@
 {
     "board": "arduino:avr:pro",
     "configuration": "cpu=16MHzatmega328",
-    "sketch": "vumeter.ino",
+    "sketch": "ArduinoRuban.ino",
     "programmer": "AVRISP mkII",
     "port": "COM13"
 }
