@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\ArduinoESP8266WifiManager"
+		}
+	],
+	"settings": {}
+}
