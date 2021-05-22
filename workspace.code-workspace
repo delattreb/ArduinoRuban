@@ -4,7 +4,13 @@
 			"path": "."
 		},
 		{
-			"path": "..\\ArduinoESP8266WifiManager"
+			"path": "..\\WS2812FX"
+		},
+		{
+			"path": "..\\ESP32Alexa"
+		},
+		{
+			"path": "..\\AlexaRubanLeb"
 		}
 	],
 	"settings": {}

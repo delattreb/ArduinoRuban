@@ -15,8 +15,8 @@ WS2812FX ws2812fx = WS2812FX(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 EC11 encoder;
 boolean b_mode, b_effect = false;
 static int mode = MODE_BRIGHTNESS;
-static int effect = 45;
-static int bright = 150; //0-255
+static int effect = 45; //45  Selection 3-18-44-45-55
+static int bright = 255; //0-255
 static int speed = 3500;
 int cpt = 0;
 
@@ -33,8 +33,7 @@ void setup()
   prepare();
 
   ws2812fx.init();
-  //ws2812fx.setColor(ORANGE);
-  ws2812fx.setColor(PURPLE);
+  ws2812fx.setColor(LED_COLOR);
   ws2812fx.setBrightness(bright);
   ws2812fx.setMode(effect);
   ws2812fx.setSpeed(speed);
